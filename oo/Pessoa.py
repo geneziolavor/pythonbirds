@@ -16,6 +16,12 @@ if __name__ == '__main__':
     print(genezio.idade)
     for filho in genezio.filhos:
         print(filho.nome)
+    genezio.sobrenome = 'oliveira'
+    del genezio.filhos
+    print(genezio.__dict__)
+    print(maria.__dict__)
+
+
 
 
 
